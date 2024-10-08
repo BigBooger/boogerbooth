@@ -1,0 +1,2 @@
+httpsboogerbooth.netlify.app
+https://app.netlify.com/sites/boogerbooth/configuration/general
