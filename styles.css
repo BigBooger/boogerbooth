@@ -12,6 +12,12 @@ body, header, nav, main, footer, img, h1, h3 {
 }
 
 /* style rules for body and images */
+
+html {
+	zoom: 67%;
+	
+}
+
 body {
 	background-image: url("background.jpg");
 	background-repeat: repeat;
@@ -84,6 +90,7 @@ h2 {
 	margin-bottom: -1em;
 	text-decoration: underline;
 	color: #39375F;
+	font-size: 1.75em;
 }
 
 h3 {
@@ -98,7 +105,7 @@ main {
 }
 
 main p {
-	font-size: 1.25em;
+	font-size: 1.5em;
 	line-height: 2em;
 	color: #000000;
 }
@@ -112,10 +119,13 @@ hr {
   padding: 0;
   background-color: #000000;
   border-color: #000000;
+  margin-left: -35px;
+  margin-right: -35px;
 }
 
 #container {
 	font-family: Verdana, Arial, sans serif;
+	
 }
 
 #main {
@@ -127,6 +137,7 @@ hr {
   background: rgb(136, 136, 179, 0.5);
   font-family: Roboto, Arial, sans serif;
   font-size: 1.15em;
+
 }
 
 #content {
@@ -159,14 +170,14 @@ hr {
 
 .link {
 	color: #2C237B;
-	font-size: 1.25em;
+	font-size: 1em;
 	font-weight: bold;
 	transition: 0.5s;
 }
 
 .link:hover {
 	color: #6A61BA;
-	font-size:1.5em;
+	font-size:1.15em;
 	transition: 0.2s;
 }
 
