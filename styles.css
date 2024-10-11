@@ -125,7 +125,8 @@ hr {
   border: 3px solid;
   border-radius: 5%;
   background: rgb(136, 136, 179, 0.5);
-  
+  font-family: Roboto, Arial, sans serif;
+  font-size: 1.15em;
 }
 
 #content {
@@ -233,6 +234,7 @@ footer {
 	background: rgb(136, 136, 179, 1);
 	color: #313045;
 	padding: 1%em;
+	
 }
 
 footer p {
