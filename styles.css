@@ -161,11 +161,17 @@ hr {
   margin-top: auto;
 }
 
-.floater {
-	position: relative;
-	bottom: 45px;
-	left: 125px;
-	float: right;
+.banner {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.banner:hover{
+  animation: shake 0.5s;
+
+  animation-iteration-count: infinite;
+  
 }
 
 .link {
