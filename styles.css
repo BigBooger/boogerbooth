@@ -56,8 +56,6 @@ nav li {
 	padding: 0.15em;
 	font-weight: bold;
 	position: relative;
-	bottom: 15px;
-	left: 50px;
 }
 
 nav li a:hover{
