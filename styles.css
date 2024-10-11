@@ -231,14 +231,15 @@ hr {
 /* style rules for footer content */
 footer {
 	background: rgb(136, 136, 179, 1);
-	color: #ffffff;
+	color: #313045;
 	padding: 1%em;
 }
 
 footer p {
 	font-family: Verdana, Arial, sans serif;
 	text-align: center;
-	font-size: 0.85em;
+	font-size: 1em;
+	
 }
 
 li {
