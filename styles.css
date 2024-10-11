@@ -231,7 +231,7 @@ hr {
 
 /* style rules for footer content */
 footer {
-	background: rgb(136, 136, 179, 1);
+	background: rgb(136, 136, 179, 0.8);
 	color: #313045;
 	padding: 1%em;
 	
