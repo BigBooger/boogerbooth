@@ -81,7 +81,7 @@ h1 {
 h2 {
 	padding: 1%;
 	margin-top: 0em;
-	margin-bottom: 1em;
+	margin-bottom: -1em;
 	text-decoration: underline;
 	color: #39375F;
 }
@@ -100,11 +100,22 @@ main {
 main p {
 	font-size: 1.25em;
 	line-height: 2em;
-	color: #636189;
+	color: #000000;
+}
+
+hr {
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid #ccc;
+  margin: 1em 0;
+  padding: 0;
+  background-color: #000000;
+  border-color: #000000;
 }
 
 #container {
-	font-family: Segoe print, Arial, sans-serif;
+	font-family: Verdana, Arial, sans serif;
 }
 
 #main {
@@ -219,8 +230,7 @@ main p {
 
 /* style rules for footer content */
 footer {
-	background: rgb(40,49,57);
-	background: linear-gradient(0deg, rgba(40,49,57,1) 1%, rgba(0,0,0,1) 82%, rgba(0,0,0,1) 100%);
+	background: rgb(136, 136, 179, 1);
 	color: #ffffff;
 	padding: 1%em;
 }
