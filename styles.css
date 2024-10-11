@@ -298,3 +298,23 @@ button:hover {
 	color: white;
 	border-color: #6E78D6;
 }
+
+{
+    scrollbar-width: auto;
+    scrollbar-color: #9a9db1 #3a3941;
+  }
+
+  /* Chrome, Edge, and Safari */
+  *::-webkit-scrollbar {
+    width: 20px;
+  }
+
+  *::-webkit-scrollbar-track {
+    background: #3a3941;
+  }
+
+  *::-webkit-scrollbar-thumb {
+    background-color: #9a9db1;
+    border-radius: 20px;
+    border: 3px solid #312E3D;
+  }
