@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Home</title>
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="stylesphone.css">
     <link rel="icon" href="images/poopbooger.jpg">
 </head>
 <body>
@@ -15,14 +15,17 @@
 
 <div id="navcontainer">
     <nav>
+        <header>
+            <h1>Booger Booth</h1>
+        </header>
+
         <div id="nav">
                 <ul>
-                    <li><a href="index.html">Home</a></li>
-                    <li><a href="assist.html">Holder</a></li>
-                    <li><a href="coping.html">Holder</a></li>
+                    <a href="iphone.html"><img class="row" src="phone/home.png" alt="booger icon"></a>
+                    <a href="iphone.html"><img class="row" src="images/poopbooger.jpg" alt="booger icon"></a>
+                    <a href="iphone.html"><img class="row" src="images/poopbooger.jpg" alt="booger icon"></a>
                 </ul>
         </div>
-        <a href="index.html"><img class="icon" src="images/poopbooger.jpg" alt="booger icon"></a>
     </nav>
 </div>
 
@@ -31,9 +34,7 @@
 <div id="container">
 
     <div id="header">
-        <header>
-            <h1>Booger Booth</h1>
-        </header>
+        <div id="filler2"></div>
 
         <img src="images/boogerbanner.jpg" alt="banner" width="1707" height="282" class="banner">
     </div>
@@ -77,13 +78,13 @@
 </div>
 
 <div id="iphoneredirect">
-    
-    <script type="text/javascript">
+
+    <script language=javascript>
         <!--
-        if (screen.width <= 699) {
-        document.location = "iphone.html";
+        if ((navigator.userAgent.match(/iPhone/i)) || (navigator.userAgent.match(/iPod/i))) {
+           location.replace("iphone.html");
         }
-        //-->
+        -->
         </script>
 
 </div>
