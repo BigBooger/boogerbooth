@@ -159,6 +159,11 @@ hr {
 
 }
 
+#random {
+	position: relative;
+	
+}
+
 .banner {
 	display: block;
 	margin-left: auto;
@@ -262,8 +267,6 @@ footer {
 	border-top-left-radius: 25%;
 	border-top-right-radius: 25%;
 	overflow: hidden;
-	width: 99.8%;
-	position: absolute;
 	
 }
 
