@@ -19,14 +19,14 @@ body {
 
 nav {
 	background: rgb(255,246,254);
-	background: linear-gradient(0deg, rgba(222,207,175,0.9206057422969187) 0%, rgba(237,229,191,0.9037990196078431) 22%, rgba(255,252,205,0.8981967787114846) 100%);
+	background: linear-gradient(0deg, rgba(121,125,159,0.7861519607843137) 0%, rgba(76,79,105,0.8141631652661064) 45%, rgba(61,64,91,0.8393732492997199) 91%);
 	border-bottom-right-radius: 25%;
 	border-bottom-left-radius: 25%;
 	padding: 5vh;
 	position:static;
 	bottom: 40px;
 	border: 0.3vh solid;
-	border-color: #51504C;
+	border-color: #2e3147;
 	height:10px;
 }
 
@@ -43,14 +43,14 @@ nav li {
 }
 
 nav li a:hover{
-	color: #67655F;
+	color: #cbcde7;
 	transition: 0.2s;
 	font-size: 1.15em;
 }
 
 nav li a {
 	text-align: center;
-	color: #31302C;
+	color: #161722;
 	font-family: Verdana, Arial, sans-serif;
 	padding: 5vh 5vh;
 	text-decoration: none;
@@ -83,7 +83,7 @@ nav li a {
 
 h1 {
 	text-align: center;
-	color: #31302C;
+	color: #161722;
 	text-decoration: underline;
 	font-size: 4vh;
 	font-family:  Verdana, Arial, sans-serif;
@@ -96,19 +96,20 @@ h1 {
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
-	border: 0.3vh solid;
-	border-color: #51504C;
-    width: 100%;
+	borde: 0.3vh solid;
+	border-color: #2e3147;
     height: auto;
-	width: 90%
+	width: 65%;
+	border-top-right-radius: 5vh;
+	border-top-left-radius: 5vh;
 }
 
 h2 {
 	padding: 1%;
-	margin-top: 0em;
+	margin-top: -0.8em;
 	margin-bottom: -1em;
 	text-decoration: underline;
-	color: #31302C;
+	color: #161722;
 	font-size: 3vh;
 }
 
@@ -137,14 +138,14 @@ main p {
 #maincontent {
     word-wrap: break-word; width:1500px;
     margin: auto;
-    width: 90%;
-    border: 3px solid;
-    border-bottom-left-radius: 15%;
-    border-bottom-right-radius: 15%;
-    background: rgba(255, 246, 207, 0.3);
+    width: 65%;
+    borde: .3vh solid;
+    background: rgba(61, 64, 91, 0.3);
     font-family: Roboto, Arial, sans serif;
     font-size: 1.15em;
-    border-color: #51504C;
+    border-color: #2e3147;
+	border-bottom-left-radius: 5vh;
+	border-bottom-right-radius: 5vh;
 }
 
 #filler {
@@ -155,12 +156,10 @@ main p {
 
 footer {
 	padding: 1%em;
-	border: 0.15em solid;
+	border: 0.3vh solid;
 	border-color: #51504C;
-	border-top-left-radius: 15%;
-	border-top-right-radius: 15%;
 	height:12vh;
-	background: linear-gradient(0deg, rgba(255,252,205,0.8981967787114846) 0%, rgba(237,229,191,0.9037990196078431) 81%, rgba(222,207,175,0.9206057422969187) 100%);
+	background: linear-gradient(0deg, rgba(61,64,91,0.8393732492997199) 0%, rgba(76,79,105,0.8141631652661064) 45%, rgba(121,125,159,0.7861519607843137) 100%);
 }
 
 footer p {
